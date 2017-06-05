@@ -18,6 +18,6 @@ Um web-app para ajudar instituições de caridade, á encontrar voluntários.
 
 ```sh
 $ docker-compose build
-$ docker-compose run --rm website rake db:create db:migrate
+$ docker-compose run --rm website bundle exec rake db:create
 $ docker-compose up
 ```
